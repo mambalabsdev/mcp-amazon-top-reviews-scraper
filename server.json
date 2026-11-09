@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mambabuilt/mcp-amazon-top-reviews-scraper",
+  "description": "Top Amazon reviews and rating summary by ASIN on 8 marketplaces outside the US",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/mambalabsdev/mcp-amazon-top-reviews-scraper",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mambalabsdev/mcp-amazon-top-reviews-scraper",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APIFY_TOKEN",
+          "description": "Apify API token from https://console.apify.com/account/integrations",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

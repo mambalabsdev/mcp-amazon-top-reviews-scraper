@@ -1,0 +1,33 @@
+{
+  "name": "mcp-amazon-top-reviews-scraper",
+  "displayName": "Amazon Top Reviews Scraper",
+  "version": "1.0.0",
+  "description": "MCP server for Amazon Top Reviews Scraper. Top Amazon reviews and rating summary by ASIN on 8 marketplaces outside the US. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-amazon-top-reviews-scraper",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "amazon",
+    "amazon-reviews",
+    "reviews-scraper",
+    "asin",
+    "ecommerce",
+    "product-reviews"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "amazon",
+    "amazon-reviews",
+    "reviews-scraper",
+    "asin",
+    "ecommerce",
+    "product-reviews"
+  ],
+  "mcpServers": ".mcp.json"
+}

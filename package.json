@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-amazon-top-reviews-scraper",
+  "version": "1.0.0",
+  "description": "MCP server for Amazon Top Reviews Scraper. Top Amazon reviews and rating summary by ASIN on 8 marketplaces outside the US. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-amazon-top-reviews-scraper": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "amazon",
+    "amazon-reviews",
+    "reviews-scraper",
+    "asin",
+    "ecommerce",
+    "product-reviews",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/amazon-top-reviews-scraper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-amazon-top-reviews-scraper"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-amazon-top-reviews-scraper"
+}
